@@ -1,8 +1,7 @@
 <?php
+use Steampixel\Route;
+
+require_once('config.php');
 require_once('class/User.class.php');
 
-$user = new User('jkowalski', 'tajneHasło');
-$user->register();
-echo '<pre>';
-var_dump($user);
 ?>
